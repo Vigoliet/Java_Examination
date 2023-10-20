@@ -7,7 +7,7 @@ public class UserList {
 
     // Method for adding User to the arrayList
     public void addUser(User userToAdd){
-
+        users.add(userToAdd);
     }
 
     // Method for deleting User by id
@@ -17,7 +17,7 @@ public class UserList {
 
     // Method for printing the arrayList of users
     public void printUserList(){
-
+        System.out.println(users);
     }
 
     // Method for sorting arrayList of objects by alphabetical order

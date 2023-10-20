@@ -24,4 +24,9 @@ public class UserList {
     public void sortUsersByName(){
 
     }
+
+    // Method for searching after index in list
+    public User searchUserById(int id){
+        return null;
+    }
 }

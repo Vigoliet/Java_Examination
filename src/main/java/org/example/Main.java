@@ -45,7 +45,9 @@ public class Main {
                         break;
                     // Delete user
                     case 2:
-                        System.out.println();
+                        System.out.println("Enter ID to remove:");
+                        int idToRemove = scanner.nextInt();
+                        userList.removeUser(idToRemove);
                         break;
                     // Print list of users
                     case 3:

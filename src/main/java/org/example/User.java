@@ -2,13 +2,13 @@ package org.example;
 
 public class User {
 
+    private static int nextID = 1;
     private int id;
     private String name;
     private String email;
 
-    // Constructor for User objects
-    public User(int id, String name, String email) {
-        this.id = id;
+    public User(String name, String email) {
+        this.id = nextID++;
         this.name = name;
         this.email = email;
     }
@@ -37,7 +37,6 @@ public class User {
         this.email = email;
     }
 
-    // toString method for printing User objects
     @Override
     public String toString() {
         return "User{" +
